@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Georgia Apartment</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav id="navbar" class="nav">
+                <div class="nav-list">
+                    <div class="nav-list-burger-and-logo">
+                        <div class="nav-item">
+                            <a href="javascript:void(0);" id="hamburger-menu" class="nav-item__hamburger-vector" onclick="myFunction()">
+                                <img class="svg" src = "menu.svg" alt="menu vector"/>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#home" class="nav-item__logo-home"><img  class="svg" src="Apartin Geo colour 1.svg" alt="Apartin Logo"></a>
+                        </div>
+                    </div>
+                    <div class="nav-list-buttons">
+                        <div class="nav-item">
+                            <a href="#blank" class="button button_size_big button_clr_white" id="header-buttons-sign-in">Sign In</a>
+                        </div>
+                        
+                        <div class="nav-item">
+                            <a href="#blank" class="button button_size_big button_clr_brown" id="header-buttons-book-now">Book Now</a>
+                        </div>
+                    </div>   
+                </div>
+            </nav>
+            
+            <div id="menu" class="menu">
+                <div class="menu-content">
+                    <div class="menu-left-empty"></div>
+                    <div class="menu-main">
+                        <h1 class="h1 menu-h1">Menu</h1>
+                        <ul class="menu-list">
+                            <li><a class="menu-link" href="#accommodations">Accommodations</a></li>
+                            <li><a class="menu-link" href="#facilities">Facilities</a></li>
+                            <li><a class="menu-link" href="#reviews">Reviews</a></li>
+                            <li><a class="menu-link" href="#blog">Blog</a></li>
+                            <li><a class="menu-link" href="#contacts">Contacts</a></li>
+                            <li><a class="menu-link" href="#ask-questions">Ask Questions</a></li>
+                            <li><a class="menu-link" href="#top-places">Top Places</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-sidebar">
+                        <div class="menu-sidebar-item">usd / gel</div>
+                        <div class="menu-sidebar-item">eng / geo</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="start-page" class="start-page">
+                <div class="start-page-text">
+                    <h1 id="start-page-h1" class="h1 start-page-h1">Welcome to<br>Tbilisi Apart<br>Hotel Collection</h1>
+                    <div class="start-page-slide-show">
+                        <div class="start-page-slide-show__number">01</div>
+                        <div class="start-page-slide-show__name">Mansard</div>
+                        <div class="slide-show-text-arrows">
+                            <a href="" class="slide-show-text-arrows__left">
+                                <img class="svg" src = "arrow-circle-left.svg" alt="Left Arrow"/>
+                            </a>
+                            1/12
+                            <a href="" class="slide-show-text-arrows__right">
+                                <img class="svg" src = "arrow-circle-right.svg" alt="Right Arrow"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="start-page-search">
+                    <ul class="start-page-search-group">
+                        <li class="start-page-search-list">
+                            <div class="start-page-search-list-option-vector">
+                                <img  class="svg" src = "location.svg" alt="Location vector"/>
+                            </div>
+                            <div class="start-page-search-list-option">
+                                <div class="start-page-search-list-option-upper">
+                                    Location
+                                </div>
+                                <div class="start-page-search-list-option-down">
+                                    Tbilisi
+                                    <a href="" class="down-arrow">
+                                        <img class="svg" src = "arrow-down.svg" alt="Down Arrow"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="start-page-search-list">
+                            <div class="start-page-search-list-option-vector">
+                                <img class="svg" src = "person.svg" alt="Person vector"/>
+                            </div>
+                            <div class="start-page-search-list-option">
+                                <div class="start-page-search-list-option-upper">
+                                    Person
+                                </div>
+                                <div class="start-page-search-list-option-down">
+                                    02
+                                    <a href="" class="down-arrow">
+                                        <img class="svg" src = "arrow-down.svg" alt="Down Arrow"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="start-page-search-list">
+                            <div class="start-page-search-list-option-vector">
+                                <img class="svg" src = "case.svg" alt="Check In Vector"/>
+                            </div>
+                            <div class="start-page-search-list-option">
+                                <div class="start-page-search-list-option-upper">
+                                    Check In
+                                </div>
+                                <div class="start-page-search-list-option-down">
+                                    09 mar 2023
+                                    <a href="" class="down-arrow">
+                                        <img class="svg" src = "arrow-down.svg" alt="Down Arrow"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="start-page-search-list">
+                            <div class="start-page-search-list-option-vector">
+                                <img class="svg" src = "case.svg" alt="Check Out Vector"/>
+                            </div>
+                            <div class="start-page-search-list-option">
+                                <div class="start-page-search-list-option-upper">
+                                    Check Out
+                                </div>
+                                <div class="start-page-search-list-option-down">
+                                    13 mar 2023
+                                    <a href="" class="down-arrow">
+                                        <img class="svg" src = "arrow-down.svg" alt="Down Arrow"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="start-page-search-button">
+                        <a href="#blank" class="button button_size_big button_clr_green" id="start-page-buttons-search">
+                            Search
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="about-us" class="about-us">
+                <div class="about-us-header">
+                    <div class="about-us-header-row-1">
+                        <a href="" class="about-us-header__circle">
+                            <img class="svg" src = "Room Tour.svg" alt="Room Tour Vector"/>
+                        </a>
+                        <img class="svg about-us-header__line" src = "Line 14.svg" alt="Line Vector"/>
+                    </div>
+                     <h2 class="h2 about-us-h2">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspFully-equipped apartments offer<br/>the perfect blend of comfort<br/>and convenience.
+                    </h2>
+                </div>
+                <div class="about-us-content">
+                    <img class="img about-us-content__photo" src = "About-us-photo.png" alt="About Us Photo"/>
+                    <div class="about-us-content-text">
+                        <h2 class="h2 about-us-h2">
+                            Provide the best hotel services
+                        </h2>
+                        <p class="p about-us-p">
+                            Experience the ultimate blend of comfort, convenience, and warm hospitality at our Apartment Hotel. Whether you're here for a short getaway or an extended stay, our goal is to exceed your expectations and make your visit truly memorable.<br/><br/>Book now and embark on a journey of discovery with us!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="accommodation">
+                <div class="accommodation-header">
+                    <div class="accommodation-text">
+                        <h1 class="h1 accommodation-h1">12 unique and stylish accommodation</h1>
+                        <p class="p accommodation-p">
+                            Whether you're here for leisure, business, or a bit of both, our properties promise an unforgettable stay in this charming and enchanting city.
+                        </p>
+                    </div>
+                    <img class="svg accommdation-vector" src = "Accom_Line.svg" alt="Accommodation Line Vector"/>
+                </div>
+                <div class="accommodation-cards">
+                    <div class="accommodation-card">
+                        <img class="img accommodation-img" src="Room (1).png" alt="Room 1">
+                        <div class="card-header">
+                            <h3 class="h3 card-h3">Serene Retreat</h3>
+                            <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                        </div>
+                        <div class="card-comment">
+                            In the city
+                        </div>
+                        <div class="card-price">
+                            <div class="card-price-number">$150</div>
+                            <div class="card-price-comment">&nbspnight</div>
+                        </div>
+                    </div>
+                    <div class="accommodation-card">
+                        <img class="img accommodation-img" src="Room 2.png" alt="Room 1">
+                        <div class="card-header">
+                            <h3 class="h3 card-h3">Serene Retreat</h3>
+                            <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                        </div>
+                        <div class="card-comment">
+                            In the city
+                        </div>
+                        <div class="card-price">
+                            <div class="card-price-number">$150</div>
+                            <div class="card-price-comment">&nbspnight</div>
+                        </div>
+                    </div>
+                    <div class="accommodation-card">
+                        <img class="img accommodation-img" src="Room (3).png" alt="Room 1">
+                        <div class="card-header">
+                            <h3 class="h3 card-h3">Serene Retreat</h3>
+                            <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                        </div>
+                        <div class="card-comment">
+                            In the city
+                        </div>
+                        <div class="card-price">
+                            <div class="card-price-number">$150</div>
+                            <div class="card-price-comment">&nbspnight</div>
+                        </div>
+                    </div>
+                    <div class="accommodation-card">
+                        <img class="img accommodation-img" src="Room (4).png" alt="Room 1">
+                        <div class="card-header">
+                            <h3 class="h3 card-h3">Serene Retreat</h3>
+                            <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                        </div>
+                        <div class="card-comment">
+                            In the city
+                        </div>
+                        <div class="card-price">
+                            <div class="card-price-number">$150</div>
+                            <div class="card-price-comment">&nbspnight</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="accommodation-view-all-button button button_size_big button_clr_green" id="accommodation-cards-buttons-view-all">
+                    View All
+                </a>
+            </section>
+
+            <section class="top-places">
+                <div class="top-places-content">
+                    <div class=" top-places-column-1">
+                        <h1 class="h1 top-places-h1">Top places</h1>
+                        <div class="h2 top-places-choice">
+                            <div class="top-places-choice item">All Places</div>
+                            <div class="top-places-choice item">City</div>
+                            <div class="top-places-choice item">Beach</div>
+                            <div class="top-places-choice item">Nature</div>
+                            <div class="top-places-choice item">Mountains</div>
+                        </div>
+                        <div class="top-places-relevancy">relevancy
+                            <img src="arrow-down.svg" alt="arrow-down">
+                        </div>
+                    </div>
+                    <div class="top-places-columns-cards">
+                            <div class="accommodation-card top-places-columns-card-1">
+                                <img class="img accommodation-img" src="Top Places (1).png" alt="Room 1">
+                                <div class="card-header">
+                                    <h3 class="h3 card-h3">Serene Retreat</h3>
+                                    <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                                </div>
+                                <div class="card-comment">
+                                    In the city
+                                </div>
+                                <div class="card-date">
+                                    Apr 7 - 12
+                                </div>
+                                <div class="card-price">
+                                    <div class="card-price-number">$150</div>
+                                    <div class="card-price-comment">&nbspnight</div>
+                                </div>
+                            </div>
+                            <div class="accommodation-card top-places-columns-card-2">
+                                <img class="img accommodation-img" src="Top Places (2).png" alt="Room 1">
+                                <div class="card-header">
+                                    <h3 class="h3 card-h3">Serene Retreat</h3>
+                                    <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                                </div>
+                                <div class="card-comment">
+                                    In the city
+                                </div>
+                                <div class="card-date">
+                                    Apr 7 - 12
+                                </div>
+                                <div class="card-price">
+                                    <div class="card-price-number">$150</div>
+                                    <div class="card-price-comment">&nbspnight</div>
+                                </div>
+                            </div>
+                            <div class="accommodation-card top-places-columns-card-3">
+                                <img class="img accommodation-img" src="Top Places (3).png" alt="Room 1">
+                                <div class="card-header">
+                                    <h3 class="h3 card-h3">Serene Retreat</h3>
+                                    <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                                </div>
+                                <div class="card-comment">
+                                    In the city
+                                </div>
+                                <div class="card-date">
+                                    Apr 7 - 12
+                                </div>
+                                <div class="card-price">
+                                    <div class="card-price-number">$150</div>
+                                    <div class="card-price-comment">&nbspnight</div>
+                                </div>
+                            </div>
+                            <div class="accommodation-card top-places-columns-card-4">
+                                <img class="img accommodation-img" src="Top Places (4).png" alt="Room 1">
+                                <div class="card-header">
+                                    <h3 class="h3 card-h3">Serene Retreat</h3>
+                                    <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                                </div>
+                                <div class="card-comment">
+                                    In the city
+                                </div>
+                                <div class="card-date">
+                                    Apr 7 - 12
+                                </div>
+                                <div class="card-price">
+                                    <div class="card-price-number">$150</div>
+                                    <div class="card-price-comment">&nbspnight</div>
+                                </div>
+                            </div>
+                            <div class="accommodation-card top-places-columns-card-5">
+                                <img class="img accommodation-img" src="Top Places (5).png" alt="Room 1">
+                                <div class="card-header">
+                                    <h3 class="h3 card-h3">Serene Retreat</h3>
+                                    <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                                </div>
+                                <div class="card-comment">
+                                    In the city
+                                </div>
+                                <div class="card-date">
+                                    Apr 7 - 12
+                                </div>
+                                <div class="card-price">
+                                    <div class="card-price-number">$150</div>
+                                    <div class="card-price-comment">&nbspnight</div>
+                                </div>
+                            </div>
+                            <div class="accommodation-card top-places-columns-card-6">
+                                <img class="img accommodation-img" src="Top Places (6).png" alt="Room 1">
+                                <div class="card-header">
+                                    <h3 class="h3 card-h3">Serene Retreat</h3>
+                                    <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                                </div>
+                                <div class="card-comment">
+                                    In the city
+                                </div>
+                                <div class="card-date">
+                                    Apr 7 - 12
+                                </div>
+                                <div class="card-price">
+                                    <div class="card-price-number">$150</div>
+                                    <div class="card-price-comment">&nbspnight</div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="button button_size_big button_clr_green top-places-button">
+                    View More
+                </div>
+            </section>
+
+            <section class="facilities">
+                <h1 class="h1 facilities-header">
+                    Facilities
+                </h1>
+                <div class="facilities-content">
+                    <div class="facilities-vectors">
+                        <div class="facilities-row facilities-first-row">
+                            <div class="facilities-cell">
+                                <img class="svg" src="best service.svg" alt=" Best Services">
+                                <div class="facilities-cell-text">Best Services</div>
+                            </div>
+                            <div class="facilities-cell">
+                                <img class="svg" src="comfortable locations.svg" alt="Comfotable Locations">
+                                <div class="facilities-cell-text">Comfotable Locations</div>
+                            </div>
+                            <div class="facilities-cell">
+                                <img class="svg" src="long-term booking.svg" alt="Long-Term Booking">
+                                <div class="facilities-cell-text">Long-Term Booking</div>
+                            </div>
+                            <div class="facilities-cell">
+                                <img class="svg" src="work around the clock.svg" alt="Work Around the Clock">
+                                <div class="facilities-cell-text">Work Around the Clock</div>
+                            </div>
+                            <div class="facilities-cell">
+                                <img class="svg" src="online chat.svg" alt="Online Chat">
+                                <div class="facilities-cell-text">Online Chat</div>
+                            </div>
+                        </div>
+                        <div class="facilities-row facilities-second-row">
+                            <div class="facilities-cell">
+                                <img class="svg" src="room services.svg" alt="Room Services">
+                                <div class="facilities-cell-text">Room Services</div>
+                            </div>
+                            <div class="facilities-cell">
+                                <img class="svg" src="kitchen services.svg" alt="Kitchen Services">
+                                <div class="facilities-cell-text">Kitchen Services</div>
+                            </div>
+                            <div class="facilities-cell">
+                                <img class="svg" src="comfortable furniture.svg" alt="Comfortable Furniture">
+                                <div class="facilities-cell-text">Comfortable Furniture</div>
+                            </div>
+                            <div class="facilities-cell">
+                                <img class="svg" src="transfer to airport.svg" alt="Transfer to Airport">
+                                <div class="facilities-cell-text">Transfer to Airport</div>
+                            </div>
+                            <div class="facilities-cell">
+                                <img class="svg" src="multi-currency payment.svg" alt="Multi-Currency Payment">
+                                <div class="facilities-cell-text">Multi-Currency Payment</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="facilities-text">
+                        <img class="svg facilities-text-svg" src="Accom_Line.svg" alt="Line">
+                        <p class="p facilities-p">For our business travellers, we offer conveniences such as high-speed Wi-Fi, business centres, and meeting spaces. </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="guest-reviews">
+                <h1 class="h1 guest-reviews-h1">Our guests about Us</h1>
+                <div class="guest-reviews-cards">
+                    <div class="guest-reviews-card guest-reviews-card-1">
+                            <h3 class="h3 guest-reviews-card-header">Best experience with online booking</h3>
+                            <p class="guest-reviews-card-text">The Serene Retreat room I stayed in was cozy and beautifully decorated. The attention to detail was impressive, from the artwork on the walls to the quaint little trinkets that added a touch of magic to the space.</p>
+                            <div class="guest-reviews-card-score">
+                                <div class="guest-reviews-card-stars">
+                                    <img class="svg" src="5 stars.svg" alt="5 stars">
+                                </div>
+                                <div class="guest-reviews-card-name">
+                                    Roxanne
+                                </div>
+                            </div>
+                    </div>
+                    <div class="guest-reviews-card guest-reviews-card-2">
+                            <h3 class="h3 guest-reviews-card-header">The location was also fantastic</h3>
+                            <p class="guest-reviews-card-text">During my stay, I took advantage of the on-site spa and wellness facilities, which left me feeling rejuvenated and relaxed. It was the perfect way to end a day of exploring the city.</p>
+                                <div class="guest-reviews-card-score">
+                                <div class="guest-reviews-card-stars">
+                                    <img class="svg" src="5 stars.svg" alt="5 stars">
+                                </div>
+                                <div class="guest-reviews-card-name">
+                                    Marry
+                                </div>
+                            </div>
+                    </div>
+                    <div class="guest-reviews-card guest-reviews-card-3">
+                            <h3 class="h3 guest-reviews-card-header">Highly recommended for anyone</h3>
+                            <p class="guest-reviews-card-text">The attention to detail, warm hospitality, and unique ambiance made it a truly unforgettable stay. I can't wait to return and create more enchanting memories in this whimsical haven!</p>
+                            <div class="guest-reviews-card-score">
+                                <div class="guest-reviews-card-stars">
+                                    <img class="svg" src="5 stars.svg" alt="5 stars">
+                                </div>
+                                <div class="guest-reviews-card-name">
+                                    Tomas
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="guest-reviews-arrows">
+                    <a href=""><img src="arrow-circle-black-left.svg" alt="arrow-circle-left"></a>
+                    <a href=""><img src="arrow-circle-black-right.svg" alt="arrow-circle-right"></a>
+                </div>
+            </section>
+
+            <section class="blog">
+                <h1 class="h1 blog-header">
+                    Blog
+                </h1>
+                <div class="blog-content">
+                    <div class="blog-content-row-1">
+                        <div class="blog-content-card accommodation-card">
+                            <img class="img accommodation-img" src="blog-mountain.png" alt="Room 1">
+                            <div class="card-comment">
+                                Travel article - May 15, 2023
+                                <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                            </div>
+                            <div class="card-header">
+                                <h3 class="h3 card-h3">welcome to sakartvelo</h3>
+                            </div>
+                            <div class="card-p">
+                                History comes alive in ancient cave cities like Uplistsikhe and Vardzia, where rock-hewn monasteries and dwellings ...
+                            </div>           
+                            <div class="card-p-short">
+                                History comes alive in ancient cave cities like Uplistsikhe and Vardzia...
+                            </div>           
+                        </div>
+                        <div class="blog-content-card accommodation-card">
+                            <img class="img accommodation-img" src="blog-statue.png" alt="Room 1">
+                            <div class="card-comment">
+                                Travel article - May 17, 2023
+                                <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                            </div>
+                            <div class="card-header">
+                                <h3 class="h3 card-h3">Tbilisi, the heart and soul of our country</h3>
+                            </div>
+                            <div class="card-p">
+                                Begin your adventure in Tbilisi, the vibrant capital, where ancient meets modern...
+                            </div>
+                            <div class="card-p-short">
+                                Begin your adventure in Tbilisi, the vibrant capital, where ancient meets modern...                            </div>           
+                            </div>
+                    </div>
+                    <div class="blog-content-row-2">
+                        <div class="big-accommodation-card">
+                            <div class="blog-room-img"></div>
+                            <div class="card-comment">
+                                Video - May 15, 2023
+                                <img class="svg" src="arrow-up.svg" alt="arrow-up">
+                            </div>
+                            <div class="card-header">
+                                <h3 class="h3 card-h3">Main mansard room tour</h3>
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts">
+                <h1 class="h1 contacts-h1">Our location and contacts</h1>
+                <div class="contacts-content">
+                    <div class="contacts-map">
+                        <a href=""><img class="contacts-map-img" src="contacts-map.png" alt="contacts-map-pin"></a>
+                    </div>
+                    <div class="contacts-info">
+                        <h2 class="h2 contacts-info-h2">Tbilisi</h2>
+                        <div class="contacts-info-links">
+                            <div class="contacts-info-row contacts-phone">
+                                <img src="contacts-call.svg" alt="ontacts-call">
+                                <a href="" class="contacts-link contacts-phone-link">+1 (555) 123-4567</a>
+                            </div>
+                            <div class="contacts-info-row contacts-mail">
+                                <img src="contacts-mail.svg" alt="ontacts-mail">
+                                <a href="" class="contacts-link contacts-mail-link">info@fakedomain.com</a>
+                            </div>
+                            <div class="contacts-info-row contacts-route">
+                                <img src="contacts-routing-2.svg" alt="ontacts-route">
+                                <a href="" class="contacts-link contacts-route-link">1234 Imaginary Street</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="questions">
+                    <div class="questions-content">
+                        <div class="questions-content-left">
+                            <div class="questions-header">
+                                <h2 class="h2 questions-h2">Do you have any special question?</h2>
+                                <div class="questions-h2-comment">
+                                    choose your option
+                                </div>
+                            </div>
+                            <form class="questions-form" id="questions-form" action="" method="post" enctype="multipart/form-data">
+                                    <div class="questions-options-list">
+                                        <div class="button questions-option">
+                                            Issues with locker
+                                        </div>
+                                        <div class="button questions-option">
+                                            Issues with cancelation
+                                        </div>
+                                        <div class="button questions-option">
+                                            Can't find location
+                                        </div>
+                                        <div class="button questions-option">
+                                            Chat with manager
+                                        </div>
+                                        <div class="button questions-option">
+                                            Cooperation and collaboration
+                                        </div>
+                                        <div class="button questions-option">
+                                            Other
+                                        </div>
+                                    </div>
+                                    <div class="questions-form-inputs">
+                                        <div class="questions-form-input-container">
+                                            <label for="questions-form-input-name" hidden>Your name</label>
+                                            <input class="questions-form-input" type="text" id="questions-form-input-name" name="questions-form-input-name" placeholder="Your name">
+                                        </div>
+                                        <div class="questions-form-input-container">
+                                            <label for="questions-form-input-mail" hidden>Your e-mail</label>
+                                            <input class="questions-form-input" type="email" id="questions-form-input-mail" name="questions-form-input-mail" placeholder="Your e-mail">
+                                        </div>
+                                        <div class="questions-form-input-container">
+                                            <label for="questions-form-input-details" hidden>Describe your question in more detail?</label>
+                                            <input class="questions-form-input" type="text" id="questions-form-input-details" name="questions-form-input-details" placeholder="Describe your question in more detail?">
+                                        </div>
+                                    </div>
+                        
+                                    <div class="questions-form-attachment-container">
+                                        <img class="svg" src="paperclip.svg" alt="paperclip">
+                                        <label class="questions-form-attachment-style" for="attachment" hidden>Attachment</label>
+                                        <input class="questions-form-attachment-input" type="file" id="attachment" name="attachment">
+                                    </div>
+                            </form>
+                        </div>
+                        <input class="button button_size_big button_clr_brown questions-form-button" type="submit" value="Send" form="questions-form">
+                    </div>
+                    <img class="questions-logo-right" src="Apartin Geo colour 2.png" alt="questions-Apartin-logo-pistachio">
+                </section>
+
+            <section class="offer">
+                <div class="offer-content">
+                    <div class="offer-header">
+                        <h1 class="h1 offer-h1">20% Off on Extended Stays</h1>
+                        <p class="p offer-p">Whether you're here for leisure, business, or a bit of both, our properties promise an unforgettable stay in this charming and enchanting city. </p>
+                    </div>
+                    <div class="offer-promo-code">
+                        <div class="offer-promo-text">
+                            Apply promo code: <span>LUXURYGETAWAY</span>&nbsp&nbsp
+                        </div>
+                        <div class="offer-promo-code-comment">
+                            *during the booking process.
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="offer-booking-button button button_size_big button_clr_brown" id="offer-booking-button">
+                    Booking
+                </a>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-content-column footer-content-column-1">
+                        <img class="logo-img" src="footer-apartin-logo.png" alt="footer-apartin-logo">
+                        <div class="footer-text footer-text__column-1">The service at the Apart.In was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particularly impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us)</div>
+                    </div>
+                    <div class="footer-content-columns-2-3-4">
+                        <div class="footer-content-column footer-content-column-2">
+                            <h3 class="footer-h3">Quick links</h3>
+                            <div class="footer-content-column-text">
+                                <div class="footer-text">Room booking</div>
+                                <div class="footer-text">Rooms</div>
+                                <div class="footer-text">Contact</div>
+                                <div class="footer-text">Blog</div>
+                            </div>
+                        </div>
+                        <div class="footer-content-column footer-content-column-3">
+                            <h3 class="footer-h3">Company</h3>
+                            <div class="footer-content-column-text">
+                                <div class="footer-text">Privacy policy</div>
+                                <div class="footer-text">Refund policy</div>
+                                <div class="footer-text">F.A.Q</div>
+                                <div class="footer-text">About</div>
+                            </div>
+                        </div>
+                        <div class="footer-content-column footer-content-column-4">
+                            <h3 class="footer-h3">Social media</h3>
+                            <div class="footer-content-column-text">
+                                <div class="footer-text">Facebook</div>
+                                <div class="footer-text">Twitter</div>
+                                <div class="footer-text">Instagram</div>
+                                <div class="footer-text">Linkedin</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-content-column footer-content-column-5">
+                        <h3 class="footer-h3">Newsletter</h3>
+                        <div class="footer-content-column-text">
+                            <div class="footer-text footer-text__column-5">
+                                Kindly subscribe to our newsletter to get
+                                latest deals on our rooms and vacation
+                                discount.
+                            </div>
+                            <form class="footer-content-form" action="">
+                                <label for="footer-form-email" hidden>Enter your email</label>
+                                <input class="footer-form-email" type="email" id="footer-form-email" name="footer-form-email" placeholder="Enter your email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                                <input class="button button_size_small button_clr_green footer-content-form-button" type="submit" value="Send">
+                            </form>
+                        </div> 
+                    </div>
+                </div>
+                <div class="footer-copyright">Apart.in 2023</div>
+            </footer>
+    
+        </main>   
+    </body>
+</html>
